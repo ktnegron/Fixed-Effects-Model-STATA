@@ -6,6 +6,15 @@ To estimate the impact of the migrant inflow from Venezuela into Colombian borde
 we first use a fixed effects model and identify the municipality-level response from variations along the treatment
 between the pre-treatment period (2014) and the post-treatment one (2018).
 
+Specifically, we study Colombia’s 7 border provinces (departamentos) with Venezuela: Arauca, Boyaca,
+Cesar, Guainia, La Guajira, Norte de Santander and Vichada. We find no significant effect of baseline values of our time-variant socioeconomic variables (including
+socioeconomic and mechanism indicators) on this settlement decision. These results strongly support our claim
+that migrants did not target areas with specific characteristics but just settled in the closest center to get food,
+medicine and essential services, and provides evidence in favor of interpreting this variable as exogenous. This
+settlement decision strictly based on closeness to border is also illustrated by the Figure below: not only is the
+highest share of foreign-born population in the Colombian regions concentrated in our area of study (the 7 border
+provinces), but within these border provinces there is also a clear concentration in municipalities on the physical
+
 <img src = "https://github.com/ktnegron/Fixed-Effects-Model-STATA/blob/main/Variation_border.PNG?raw=true" style="width:200px, height: 100px"/>
 
 Despite we show that migration settlement patterns were only explained by time invariant
