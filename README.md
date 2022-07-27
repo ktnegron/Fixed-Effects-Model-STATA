@@ -1,9 +1,13 @@
 # Fixed-Effects-Model 
 
-Fixed effects model to identify the municipality-level response from variations along the treatment between the pre-treatment period (2014) and the post-treatment one (2018) --> To estimate the impact of the migrant inflow from Venezuela into Colombian border provinces on crime outcomes.
+To estimate the impact of the migrant inflow from Venezuela into Colombian border provinces on crime outcomes,
+we first use a fixed effects model and identify the municipality-level response from variations along the treatment
+between the pre-treatment period (2014) and the post-treatment one (2018).
 
-
-We control for several socioeconomic time-variant effects (income, education, total
+Despite we show that migration settlement patterns were only explained by time invariant
+characteristics, we allow for the fact that migration may still be correlated with some omitted variables, e.g.
+socioeconomic and geographic characteristics, and that municipalities that differ on those dimensions may follow
+different trends. We control for several socioeconomic time-variant effects (income, education, total
 population, urban population, total / migrant population density and political ideology of the party in power),
 and use a fixed effects model to address the issue of time-invariant effects. The following panel regression on all municipalities is estimated:
 ### ln(Ymt) = β0 + β1ln(Tmt) + γln(Xmt) + δm + φt + mt
