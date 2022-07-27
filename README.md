@@ -33,3 +33,30 @@ party in power), and for our preferred specification, indicators measuring the c
 of interest: the percentage of male population with ages between 15 and 29 (composition effects), average monthly
 wages in 2014 real Colombian pesos (labor market effects) and clear rates, defined as number of convictions divided
 by the number of crimes committed per type of crime (economic incentives).
+
+# Robustness checks
+## Placebo Tests
+First placebo test: In our first placebo test, we replicate the baseline IV specification in the same municipalities
+in border provinces but studying the period between 2005 and 2014. Migrant inflows from Venezuela were almost
+non-existent in this time period, and therefore we would expect migration not to have a significant effect on crime
+rates - if it does, there may be some confounding factors in our instrument or in our setting.
+
+Second placebo test: In order to provide further evidence in favor of our empirical strategy and results, we
+run a second placebo test, this time replicating the baseline IV specification in our same time period (2014-18)
+but in other Colombian municipalities not on the Colombia-Venezuela border.
+First, we need to find comparable municipalities for our placebo test - in order to do this, we use propensity score
+matching with our base socioeconomic control variables (total population, urban population, population density,
+GDP per capita and educational level) to find comparable municipalities across Colombia. This resulted in a list
+of 179 municipalities, scattered all across the country and located in 24 of the 25 Colombian "departamentos" not
+on the border with Venezuela. Table A3 in the Appendix presents the balance check between our border province
+municipalities and comparable municipalities selected through propensity score matching, and illustrates that
+there were no significant differences between both groups of municipalities in terms of socioeconomic indicators.
+Having found comparable municipalities, we compile the same data points for all new municipalities and run our
+baseline IV specification on them.
+
+# Logit Model
+Can we rule out any type of discrimination? We ran a Logit model on the probability of being a personal theft
+victim taking into account the nationality and socioeconomic characteristics (gender, age, civil status, educational
+attainment and employment status) on the full dataset of 4.3 million people in our border regions - the specification
+can be found below:
+### P r(V ictimim = 1) = Φ[β0 + β1V enezuelanim + β2Xim + eim]
