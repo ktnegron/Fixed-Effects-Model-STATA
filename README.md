@@ -1,8 +1,12 @@
-# Fixed-Effects-Model 
+# Criminals or Victims? Evidence on Forced Migration and Crime from the Colombia–Venezuela Border
+
+## Fixed-Effects-Model 
 
 To estimate the impact of the migrant inflow from Venezuela into Colombian border provinces on crime outcomes,
 we first use a fixed effects model and identify the municipality-level response from variations along the treatment
 between the pre-treatment period (2014) and the post-treatment one (2018).
+
+<img src = "https://github.com/ktnegron/Fixed-Effects-Model-STATA/blob/main/Variation_border.PNG?raw=true" style="width:200px, height: 100px"/>
 
 Despite we show that migration settlement patterns were only explained by time invariant
 characteristics, we allow for the fact that migration may still be correlated with some omitted variables, e.g.
