@@ -1,8 +1,3 @@
-cd "C:\Users\Andre de Oliveira Va\Desktop\Masters\Courses\Q3\Master Project"
-
-import excel "C:\Users\Andre de Oliveira Va\Desktop\Masters\Courses\Q3\Master Project\FORSTATA_PANEL_vNew.xlsx", sheet("FORSTATA_PANEL_vNew") firstrow
-
- 
 *** SET UP PANEL: 
 
 global id ID
