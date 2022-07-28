@@ -6,6 +6,8 @@ To estimate the impact of the migrant inflow from Venezuela into Colombian borde
 we first use a fixed effects model and identify the municipality-level response from variations along the treatment
 between the pre-treatment period (2014) and the post-treatment one (2018).
 
+<img src = "https://github.com/ktnegron/Fixed-Effects-Model-STATA/blob/FixedEffects/migrant_crisis.PNG?raw=true" style="width:200px, height: 100px"/>
+
 Specifically, we study Colombia’s 7 border provinces (departamentos) with Venezuela: Arauca, Boyaca,
 Cesar, Guainia, La Guajira, Norte de Santander and Vichada. We find no significant effect of baseline values of our time-variant socioeconomic variables (including
 socioeconomic and mechanism indicators) on this settlement decision. These results strongly support our claim
