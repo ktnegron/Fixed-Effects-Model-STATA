@@ -15,7 +15,7 @@ settlement decision strictly based on closeness to border is also illustrated by
 highest share of foreign-born population in the Colombian regions concentrated in our area of study (the 7 border
 provinces), but within these border provinces there is also a clear concentration in municipalities on the physical
 
-<img src = "https://github.com/ktnegron/Fixed-Effects-Model-STATA/blob/main/Variation_border.PNG?raw=true" style="width:200px, height: 100px"/>
+<img src = "https://github.com/ktnegron/Fixed-Effects-Model-STATA/blob/FixedEffects/Variation_border.PNG?raw=true" style="width:200px, height: 100px"/>
 
 Despite we show that migration settlement patterns were only explained by time invariant
 characteristics, we allow for the fact that migration may still be correlated with some omitted variables, e.g.
